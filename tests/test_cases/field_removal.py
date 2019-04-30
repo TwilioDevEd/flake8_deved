@@ -31,3 +31,6 @@ class Migration(migrations.Migration):
             model_name='productlandingpage',
             name='snippet_ruby',
         ))
+
+# This is a comment that says RemoveField is awesome
+# Flake8 test should ignore that 👆
