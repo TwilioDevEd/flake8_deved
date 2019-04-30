@@ -4,8 +4,6 @@ requires = [
     "flake8 > 3.0.0",
 ]
 
-flake8_entry_point = # ...
-
 setuptools.setup(
     name="flake8_deved",
     license="MIT",
@@ -14,13 +12,11 @@ setuptools.setup(
     author="Twilio",
     author_email="deved@twilio.com",
     url="https://code.hq.twilio.com/deved/flake8_deved",
-    packages=[
-        "flake8_deved",
-    ],
+    packages=setuptools.find_packages(),
     install_requires=requires,
     entry_points={
-        flake8_entry_point: [
-            'X = flake8_deved:ExamplePlugin',
+        'flake8.extension': [
+            'TWI101 = plugins.field_removal:checker',
         ],
     },
     classifiers=[
