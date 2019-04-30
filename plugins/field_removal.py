@@ -1,6 +1,6 @@
 import tokenize
 
-TWI101 = 'TWI101 Unsafe field removal. See <TODO>'
+TWI101 = 'TWI101 Unsafe field removal. See http://twil.io/f8-field-removal'
 DANGER_METHOD = 'RemoveField'
 
 
