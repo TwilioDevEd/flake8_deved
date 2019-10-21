@@ -20,6 +20,16 @@ class Migration(migrations.Migration):
             model_name='productlandingpage',
             name='quickstart_java',
         ),
+        migrations.RenameField(
+            model_name='productlandingpage',
+            old_name='old_field_name_1',
+            new_name='new_field_name_1',
+        ),
+        migrations.RenameField(
+            model_name='productlandingpage',
+            old_name='old_field_name_2',
+            new_name='new_field_name_2',
+        ),
     ]
 
     foo = None
