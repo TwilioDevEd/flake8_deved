@@ -1,4 +1,10 @@
-# flake8_deved
+# flake8_deved (DEPRECATED)
+
+```
+THIS REPO IS NO LONGER USED.
+```
+
+Leaving code here for future reference, should it become necessary.
 
 DevEd's custom flake8 rules
 
